@@ -133,3 +133,35 @@ header .text {
 .feature h4 {
   margin: 0.5rem;
 }
+
+.featureInfo {
+  background-color: azure;
+  margin-top: 20px;
+  padding: 30px;
+  display: flex;
+
+}
+
+.infoText {
+  padding: 50px;
+}
+
+.infoText p {
+  font-weight: 700;
+}
+
+.infoText a {
+  background-color: #ffc600;
+  padding: 10px;
+  margin-top: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+.infoText a:hover {
+  background-color: #ae42a4;
+  color: azure;
+
+}
