@@ -79,6 +79,12 @@ body {
   display: inline;
 }
 
+@media (min-width:1200px) {
+  .menuButton {
+    display: none;
+  }
+}
+
 header .text {
   background-color: #ffc600;
   height: 40px;
